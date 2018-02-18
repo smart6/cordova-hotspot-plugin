@@ -19,7 +19,7 @@
     </config-file>
     <source-file src="src/ios/route.h"/>
     <header-file src="src/ios/getgateway.h"/>
-    <source-file src="src/ios/getgateway.m"/>
+    <source-file src="src/ios/getgateway.c"/>
     <header-file src="src/ios/HotSpot.h"/>
     <source-file src="src/ios/HotSpot.m"/>
     <framework src="SystemConfiguration.framework"/>

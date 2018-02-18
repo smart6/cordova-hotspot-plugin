@@ -11,6 +11,19 @@
   <js-module src="www/HotSpotPlugin.js" name="HotSpotPlugin">
     <clobbers target="cordova.plugins.hotspot"/>
   </js-module>
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="HotSpotPlugin">
+        <param name="ios-package" value="HotSpot" />
+      </feature>
+    </config-file>
+    <source-file src="src/ios/route.h"/>
+    <header-file src="src/ios/getgateway.h"/>
+    <source-file src="src/ios/getgateway.m"/>
+    <header-file src="src/ios/HotSpot.h"/>
+    <source-file src="src/ios/HotSpot.m"/>
+    <framework src="SystemConfiguration.framework"/>
+  </platform>
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="HotSpotPlugin">

@@ -5,12 +5,13 @@
   "cordova": {
     "id": "cordova-plugin-hotspot",
     "platforms": [
-      "android"
+      "android",
+      "ios"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hypery2k/cordova-hotspot-plugin.git"
+    "url": "https://github.com/smart6/cordova-hotspot-plugin.git"
   },
   "keywords": [
     "cordova",
